@@ -2,17 +2,16 @@ package com.dragon;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
  * Created by Dragon
  */
 @SpringBootApplication
-@EnableEurekaServer
-public class EurekaApplication {
-
+@EnableEurekaClient
+public class ClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaApplication.class,args);
+        SpringApplication.run(ClientApplication.class,args);
     }
 }
