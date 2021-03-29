@@ -1,10 +1,10 @@
-package com.dragon.springcloud;
+package com.dragon.fileProvider;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringcloudApplicationTests {
+class We4eApplicationTests {
 
     @Test
     void contextLoads() {
